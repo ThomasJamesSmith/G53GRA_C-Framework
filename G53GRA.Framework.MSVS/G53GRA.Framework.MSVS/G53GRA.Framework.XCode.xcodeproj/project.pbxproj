@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2E9BE71C68AAD200F3AC06 /* Triforce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E9BE51C68AAD200F3AC06 /* Triforce.cpp */; };
+		3B2E9BEC1C68AB8E00F3AC06 /* Planet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E9BE81C68AB8E00F3AC06 /* Planet.cpp */; };
+		3B2E9BED1C68AB8E00F3AC06 /* Planet2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E9BEA1C68AB8E00F3AC06 /* Planet2.cpp */; };
+		3B7AC0F91C5FDFBB005B9E2D /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC0F51C5FDFBB005B9E2D /* Engine.cpp */; };
+		3B7AC0FA1C5FDFBB005B9E2D /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC0F71C5FDFBB005B9E2D /* Scene.cpp */; };
+		3B7AC1041C5FDFE6005B9E2D /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC0FF1C5FDFE6005B9E2D /* Camera.cpp */; };
+		3B7AC1051C5FDFE6005B9E2D /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC1011C5FDFE6005B9E2D /* Texture.cpp */; };
+		3B7AC10B1C5FDFF0005B9E2D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC1061C5FDFF0005B9E2D /* main.cpp */; };
+		3B7AC10C1C5FDFF0005B9E2D /* MyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC1071C5FDFF0005B9E2D /* MyScene.cpp */; };
+		3B7AC10D1C5FDFF0005B9E2D /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC1091C5FDFF0005B9E2D /* Triangle.cpp */; };
+		3BD02A991C5FD85D00E55BA5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD02A981C5FD85D00E55BA5 /* GLUT.framework */; };
+		3BD02A9B1C5FD86400E55BA5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD02A9A1C5FD86400E55BA5 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BD02A8A1C5FD69900E55BA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B2E9BE51C68AAD200F3AC06 /* Triforce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triforce.cpp; path = Code/Triforce.cpp; sourceTree = SOURCE_ROOT; };
+		3B2E9BE61C68AAD200F3AC06 /* Triforce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triforce.h; path = Code/Triforce.h; sourceTree = SOURCE_ROOT; };
+		3B2E9BE81C68AB8E00F3AC06 /* Planet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Planet.cpp; path = Code/Planet.cpp; sourceTree = SOURCE_ROOT; };
+		3B2E9BE91C68AB8E00F3AC06 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = Code/Planet.h; sourceTree = SOURCE_ROOT; };
+		3B2E9BEA1C68AB8E00F3AC06 /* Planet2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Planet2.cpp; path = Code/Planet2.cpp; sourceTree = SOURCE_ROOT; };
+		3B2E9BEB1C68AB8E00F3AC06 /* Planet2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet2.h; path = Code/Planet2.h; sourceTree = SOURCE_ROOT; };
+		3B7AC0F51C5FDFBB005B9E2D /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Engine.cpp; path = Framework/Engine/Engine.cpp; sourceTree = SOURCE_ROOT; };
+		3B7AC0F61C5FDFBB005B9E2D /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Engine.h; path = Framework/Engine/Engine.h; sourceTree = SOURCE_ROOT; };
+		3B7AC0F71C5FDFBB005B9E2D /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = Framework/Engine/Scene.cpp; sourceTree = SOURCE_ROOT; };
+		3B7AC0F81C5FDFBB005B9E2D /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = Framework/Engine/Scene.h; sourceTree = SOURCE_ROOT; };
+		3B7AC0FC1C5FDFDC005B9E2D /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animation.h; path = Framework/Interface/Animation.h; sourceTree = SOURCE_ROOT; };
+		3B7AC0FD1C5FDFDC005B9E2D /* DisplayableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayableObject.h; path = Framework/Interface/DisplayableObject.h; sourceTree = SOURCE_ROOT; };
+		3B7AC0FE1C5FDFDC005B9E2D /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Input.h; path = Framework/Interface/Input.h; sourceTree = SOURCE_ROOT; };
+		3B7AC0FF1C5FDFE6005B9E2D /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = Framework/Utility/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		3B7AC1001C5FDFE6005B9E2D /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = Framework/Utility/Camera.h; sourceTree = SOURCE_ROOT; };
+		3B7AC1011C5FDFE6005B9E2D /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Texture.cpp; path = Framework/Utility/Texture.cpp; sourceTree = SOURCE_ROOT; };
+		3B7AC1021C5FDFE6005B9E2D /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Texture.h; path = Framework/Utility/Texture.h; sourceTree = SOURCE_ROOT; };
+		3B7AC1031C5FDFE6005B9E2D /* VectorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VectorMath.h; path = Framework/Utility/VectorMath.h; sourceTree = SOURCE_ROOT; };
+		3B7AC1061C5FDFF0005B9E2D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Code/main.cpp; sourceTree = SOURCE_ROOT; };
+		3B7AC1071C5FDFF0005B9E2D /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyScene.cpp; path = Code/MyScene.cpp; sourceTree = SOURCE_ROOT; };
+		3B7AC1081C5FDFF0005B9E2D /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScene.h; path = Code/MyScene.h; sourceTree = SOURCE_ROOT; };
+		3B7AC1091C5FDFF0005B9E2D /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = Code/Triangle.cpp; sourceTree = SOURCE_ROOT; };
+		3B7AC10A1C5FDFF0005B9E2D /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = Code/Triangle.h; sourceTree = SOURCE_ROOT; };
+		3BD02A8C1C5FD69900E55BA5 /* G53GRA.Framework.XCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = G53GRA.Framework.XCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD02A981C5FD85D00E55BA5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		3BD02A9A1C5FD86400E55BA5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD02A891C5FD69900E55BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD02A9B1C5FD86400E55BA5 /* OpenGL.framework in Frameworks */,
+				3BD02A991C5FD85D00E55BA5 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7AC0F21C5FDF9B005B9E2D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AC0FF1C5FDFE6005B9E2D /* Camera.cpp */,
+				3B7AC1001C5FDFE6005B9E2D /* Camera.h */,
+				3B7AC1011C5FDFE6005B9E2D /* Texture.cpp */,
+				3B7AC1021C5FDFE6005B9E2D /* Texture.h */,
+				3B7AC1031C5FDFE6005B9E2D /* VectorMath.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		3B7AC0F31C5FDFA1005B9E2D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AC0FC1C5FDFDC005B9E2D /* Animation.h */,
+				3B7AC0FD1C5FDFDC005B9E2D /* DisplayableObject.h */,
+				3B7AC0FE1C5FDFDC005B9E2D /* Input.h */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		3B7AC0F41C5FDFA6005B9E2D /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AC0F51C5FDFBB005B9E2D /* Engine.cpp */,
+				3B7AC0F61C5FDFBB005B9E2D /* Engine.h */,
+				3B7AC0F71C5FDFBB005B9E2D /* Scene.cpp */,
+				3B7AC0F81C5FDFBB005B9E2D /* Scene.h */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		3BD02A831C5FD69900E55BA5 = {
+			isa = PBXGroup;
+			children = (
+				3BD02A9A1C5FD86400E55BA5 /* OpenGL.framework */,
+				3BD02A981C5FD85D00E55BA5 /* GLUT.framework */,
+				3BD02A8E1C5FD69900E55BA5 /* G53GRA.Framework.XCode */,
+				3BD02A8D1C5FD69900E55BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD02A8D1C5FD69900E55BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD02A8C1C5FD69900E55BA5 /* G53GRA.Framework.XCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD02A8E1C5FD69900E55BA5 /* G53GRA.Framework.XCode */ = {
+			isa = PBXGroup;
+			children = (
+				3BD02AAA1C5FD94F00E55BA5 /* Framework */,
+				3BD02A971C5FD80500E55BA5 /* Code */,
+			);
+			path = G53GRA.Framework.XCode;
+			sourceTree = "<group>";
+		};
+		3BD02A971C5FD80500E55BA5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E9BE81C68AB8E00F3AC06 /* Planet.cpp */,
+				3B2E9BE91C68AB8E00F3AC06 /* Planet.h */,
+				3B2E9BEA1C68AB8E00F3AC06 /* Planet2.cpp */,
+				3B2E9BEB1C68AB8E00F3AC06 /* Planet2.h */,
+				3B2E9BE51C68AAD200F3AC06 /* Triforce.cpp */,
+				3B2E9BE61C68AAD200F3AC06 /* Triforce.h */,
+				3B7AC1061C5FDFF0005B9E2D /* main.cpp */,
+				3B7AC1071C5FDFF0005B9E2D /* MyScene.cpp */,
+				3B7AC1081C5FDFF0005B9E2D /* MyScene.h */,
+				3B7AC1091C5FDFF0005B9E2D /* Triangle.cpp */,
+				3B7AC10A1C5FDFF0005B9E2D /* Triangle.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		3BD02AAA1C5FD94F00E55BA5 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AC0F41C5FDFA6005B9E2D /* Engine */,
+				3B7AC0F31C5FDFA1005B9E2D /* Interface */,
+				3B7AC0F21C5FDF9B005B9E2D /* Utility */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD02A8B1C5FD69900E55BA5 /* G53GRA.Framework.XCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD02A931C5FD69900E55BA5 /* Build configuration list for PBXNativeTarget "G53GRA.Framework.XCode" */;
+			buildPhases = (
+				3BD02A881C5FD69900E55BA5 /* Sources */,
+				3BD02A891C5FD69900E55BA5 /* Frameworks */,
+				3BD02A8A1C5FD69900E55BA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = G53GRA.Framework.XCode;
+			productName = G53GRA.Framework.XCode;
+			productReference = 3BD02A8C1C5FD69900E55BA5 /* G53GRA.Framework.XCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD02A841C5FD69900E55BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Wil Ward";
+				TargetAttributes = {
+					3BD02A8B1C5FD69900E55BA5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3BD02A871C5FD69900E55BA5 /* Build configuration list for PBXProject "G53GRA.Framework.XCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BD02A831C5FD69900E55BA5;
+			productRefGroup = 3BD02A8D1C5FD69900E55BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD02A8B1C5FD69900E55BA5 /* G53GRA.Framework.XCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD02A881C5FD69900E55BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7AC0FA1C5FDFBB005B9E2D /* Scene.cpp in Sources */,
+				3B7AC1051C5FDFE6005B9E2D /* Texture.cpp in Sources */,
+				3B7AC1041C5FDFE6005B9E2D /* Camera.cpp in Sources */,
+				3B2E9BEC1C68AB8E00F3AC06 /* Planet.cpp in Sources */,
+				3B2E9BED1C68AB8E00F3AC06 /* Planet2.cpp in Sources */,
+				3B2E9BE71C68AAD200F3AC06 /* Triforce.cpp in Sources */,
+				3B7AC10D1C5FDFF0005B9E2D /* Triangle.cpp in Sources */,
+				3B7AC10B1C5FDFF0005B9E2D /* main.cpp in Sources */,
+				3B7AC10C1C5FDFF0005B9E2D /* MyScene.cpp in Sources */,
+				3B7AC0F91C5FDFBB005B9E2D /* Engine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BD02A911C5FD69900E55BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BD02A921C5FD69900E55BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BD02A941C5FD69900E55BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-deprecated",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD02A951C5FD69900E55BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-deprecated",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD02A871C5FD69900E55BA5 /* Build configuration list for PBXProject "G53GRA.Framework.XCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD02A911C5FD69900E55BA5 /* Debug */,
+				3BD02A921C5FD69900E55BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD02A931C5FD69900E55BA5 /* Build configuration list for PBXNativeTarget "G53GRA.Framework.XCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD02A941C5FD69900E55BA5 /* Debug */,
+				3BD02A951C5FD69900E55BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD02A841C5FD69900E55BA5 /* Project object */;
+}

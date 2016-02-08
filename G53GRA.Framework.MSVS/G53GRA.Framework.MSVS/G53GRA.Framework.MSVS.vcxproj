@@ -68,6 +68,7 @@
   <ItemGroup>
     <ClCompile Include="Code\MyScene.cpp" />
     <ClCompile Include="Code\Triangle.cpp" />
+    <ClCompile Include="Code\Triforce.cpp" />
     <ClCompile Include="Framework\Engine\Engine.cpp" />
     <ClCompile Include="Code\main.cpp" />
     <ClCompile Include="Framework\Engine\Scene.cpp" />
@@ -77,6 +78,7 @@
   <ItemGroup>
     <ClInclude Include="Code\MyScene.h" />
     <ClInclude Include="Code\Triangle.h" />
+    <ClInclude Include="Code\Triforce.h" />
     <ClInclude Include="Framework\Interface\Animation.h" />
     <ClInclude Include="Framework\Engine\Engine.h" />
     <ClInclude Include="Framework\Interface\DisplayableObject.h" />
