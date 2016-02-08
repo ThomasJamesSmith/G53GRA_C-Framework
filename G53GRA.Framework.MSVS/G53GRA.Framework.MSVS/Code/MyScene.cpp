@@ -15,11 +15,15 @@ void MyScene::Initialise()
 {
 	glClearColor(0.f, 0.f, 0.f, 1.f);
 
+	// DEMO 1
 	//Triangle *t = new Triangle();
+    // AddObjectToScene(t);
+
+	// DEMO 2
     //Triforce *t = new Triforce();
-    
     // AddObjectToScene(t);
     
+	// DEMO 3
     // create and add a new triangle to the scene
     Planet *sun = new Planet(30.0f, 0.0f, 12.0f, 0.0f);
     sun->SetColour(255, 255, 0); //yellow
