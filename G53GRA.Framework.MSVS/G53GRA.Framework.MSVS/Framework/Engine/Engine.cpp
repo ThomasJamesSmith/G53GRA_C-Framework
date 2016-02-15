@@ -78,8 +78,6 @@ void Engine::InitFunc()
 	// Turn off 2 sided lighting
 	glLightModeli(GL_LIGHT_MODEL_TWO_SIDE, GL_FALSE);
 
-	/* Lighting??
-
 	// set the ambient light model
     GLfloat global_ambient[] = { 0.2f, 0.2f, 0.2f, 1.0f };
     glLightModelfv(GL_LIGHT_MODEL_AMBIENT, global_ambient);
@@ -97,7 +95,6 @@ void Engine::InitFunc()
     glLightfv(GL_LIGHT0, GL_SPECULAR, specular);
     glLightfv(GL_LIGHT0, GL_POSITION, position);
     glEnable(GL_LIGHT0);
-	*/
 
 	// Enable smooth shading from lighting
 	glShadeModel(GL_SMOOTH);
@@ -162,12 +159,14 @@ void Engine::PassiveMouseMotionFunc(int x, int y)
 
 void Engine::IdleFunc()
 {
-	int t = glutGet(GLUT_ELAPSED_TIME);
+	// Get elapsed time (milliseconds)
+	int t = glutGet(GLUT_ELAPSED_TIME); 
+	// Calculate difference in seconds between previous and current call 
 	double diff = (double)(t - time) / 1000.0;
 	time = t;
-
+	// Call Update methods
 	current->Update(diff);
-
+	// Signify flag for display/bufferswap
 	glutPostRedisplay();
 }
 

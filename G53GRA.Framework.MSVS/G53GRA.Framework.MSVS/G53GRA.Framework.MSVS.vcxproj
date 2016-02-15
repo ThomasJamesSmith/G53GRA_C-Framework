@@ -44,7 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\Framework;.\Code;.\Code\Demos;.\Framework\Utility;.\Framework\Interface;.\Framework\Engine;../freeglut/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\Framework;.\Code;.\Code\Demos\Viewing Example;.\Code\Demos\Solar System;.\Code\Demos\Animated Lamp;.\Code\Demos\Triforce;.\Code\Demos;.\Framework\Utility;.\Framework\Interface;.\Framework\Engine;../freeglut/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -67,22 +67,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Code\MyScene.cpp" />
-    <ClCompile Include="Code\Demos\Planet.cpp" />
-    <ClCompile Include="Code\Demos\Planet2.cpp" />
+    <ClCompile Include="Code\Demos\Solar System\Planet.cpp" />
+    <ClCompile Include="Code\Demos\Solar System\Planet2.cpp" />
     <ClCompile Include="Code\Demos\Triangle.cpp" />
-    <ClCompile Include="Code\Demos\Triforce.cpp" />
+    <ClCompile Include="Code\Demos\Triforce\Triforce.cpp" />
+    <ClCompile Include="Code\Demos\Viewing Example\Floor.cpp" />
     <ClCompile Include="Framework\Engine\Engine.cpp" />
     <ClCompile Include="Code\main.cpp" />
     <ClCompile Include="Framework\Engine\Scene.cpp" />
     <ClCompile Include="Framework\Utility\Camera.cpp" />
     <ClCompile Include="Framework\Utility\Texture.cpp" />
+    <ClCompile Include="Code\Demos\Animated Lamp\Lamp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Code\Demos\Animated Lamp\LampMesh.h" />
     <ClInclude Include="Code\MyScene.h" />
-    <ClInclude Include="Code\Demos\Planet.h" />
-    <ClInclude Include="Code\Demos\Planet2.h" />
+    <ClInclude Include="Code\Demos\Solar System\Planet.h" />
+    <ClInclude Include="Code\Demos\Solar System\Planet2.h" />
     <ClInclude Include="Code\Demos\Triangle.h" />
-    <ClInclude Include="Code\Demos\Triforce.h" />
+    <ClInclude Include="Code\Demos\Triforce\Triforce.h" />
+    <ClInclude Include="Code\Demos\Viewing Example\Floor.h" />
     <ClInclude Include="Framework\Interface\Animation.h" />
     <ClInclude Include="Framework\Engine\Engine.h" />
     <ClInclude Include="Framework\Interface\DisplayableObject.h" />
@@ -91,6 +95,7 @@
     <ClInclude Include="Framework\Utility\Camera.h" />
     <ClInclude Include="Framework\Utility\Texture.h" />
     <ClInclude Include="Framework\Utility\VectorMath.h" />
+    <ClInclude Include="Code\Demos\Animated Lamp\Lamp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

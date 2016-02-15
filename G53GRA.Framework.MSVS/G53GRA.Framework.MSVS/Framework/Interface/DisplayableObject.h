@@ -1,42 +1,63 @@
 #pragma once
 
 #include "Scene.h"
-
+/**
+* Virtual class to be inherited by all objects to be displayed in Scene
+* <p>
+* Contains purely virtual {@link #Display} method that must be overloaded. {@link #Display()} is called from {@link Scene}.
+* @author wil
+*/
 class DisplayableObject
 {
 public:
+	/**
+	 * Default constructor
+	 * <p> Initialises position, size and orientation to origin in World Space.
+	 */
 	DisplayableObject(){
 		position(0.f, 0.f, 0.f);
 		size(1.f);
 		orientation(0.f, 0.f, 0.f);
 	};
 	virtual ~DisplayableObject(void){};
-
+	/**
+	* Virtual method. Called from Scene parent.
+	* <p>
+	* Must be overloaded by your DisplayableObject subclass. Contains all rendering commands.
+	*/
 	virtual void Display() = 0;
-
-	void position(float x, float y, float z){       // set World Space position
+    /** set World Space position */
+	void position(float x, float y, float z){ 
 		pos[0] = x;
 		pos[1] = y;
 		pos[2] = z;
 	}
-	void size(float s){ size(s, s, s); }            // set size in World Space (single value)
-	void size(float sx, float sy, float sz){        // set size in World Space (separate axes)
+	/** set size in World Space (single value) */
+	void size(float s){ size(s, s, s); }
+	/** set size in World Space (seperate axes) */
+	void size(float sx, float sy, float sz){
 		scale[0] = sx;
 		scale[1] = sy;
 		scale[2] = sz;
 	}
-	void orientation(float rx, float ry, float rz){ // set orientation in World Space
+	/** set orientation in World Space */
+	void orientation(float rx, float ry, float rz){
 		rotation[0] = rx;
 		rotation[1] = ry;
 		rotation[2] = rz;
 	}
-
-	float* size(){ return scale; }                  // get size in World Space 
-	float* orientation(){ return rotation; }        // get orientation in World Space
-	float* position(){ return pos; }                // get World Space position
+    /** Get size in World Space */
+	float* size(){ return scale; } 
+	/** Get orientation in World Space */
+	float* orientation(){ return rotation; }
+	/** Get World Space position */
+	float* position(){ return pos; }
 
 protected:
-	float pos[3];               // Position in World Space
-	float scale[3];             // Size in World Space
-	float rotation[3];          // Orientation in World Space
+	/** float[] containing World Space position coordinates */
+	float pos[3];
+	/** float[] containing relative World Space scaling values for x,y,z */
+	float scale[3];
+	/** float[] containing angles of orientation in World Space for x, y, and z axes */
+	float rotation[3];
 };
