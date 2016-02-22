@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B5369801C7B59A100481B28 /* Planet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B53697C1C7B59A100481B28 /* Planet.cpp */; };
+		3B5369811C7B59A100481B28 /* Planet2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B53697E1C7B59A100481B28 /* Planet2.cpp */; };
+		3B5369841C7B59AF00481B28 /* Floor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5369821C7B59AF00481B28 /* Floor.cpp */; };
+		3B5369871C7B59FE00481B28 /* Triforce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5369851C7B59FE00481B28 /* Triforce.cpp */; };
 		3B7AC0F91C5FDFBB005B9E2D /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC0F51C5FDFBB005B9E2D /* Engine.cpp */; };
 		3B7AC0FA1C5FDFBB005B9E2D /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC0F71C5FDFBB005B9E2D /* Scene.cpp */; };
 		3B7AC1041C5FDFE6005B9E2D /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC0FF1C5FDFE6005B9E2D /* Camera.cpp */; };
 		3B7AC1051C5FDFE6005B9E2D /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC1011C5FDFE6005B9E2D /* Texture.cpp */; };
 		3B7AC10B1C5FDFF0005B9E2D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC1061C5FDFF0005B9E2D /* main.cpp */; };
 		3B7AC10C1C5FDFF0005B9E2D /* MyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AC1071C5FDFF0005B9E2D /* MyScene.cpp */; };
+		3B9D3BE21C722FD100841DAD /* Lamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D3BDF1C722FD100841DAD /* Lamp.cpp */; };
 		3BD02A991C5FD85D00E55BA5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD02A981C5FD85D00E55BA5 /* GLUT.framework */; };
 		3BD02A9B1C5FD86400E55BA5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD02A9A1C5FD86400E55BA5 /* OpenGL.framework */; };
-		3BF5D69B1C68DEDB007B0FE4 /* Planet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5D6931C68DEDB007B0FE4 /* Planet.cpp */; };
-		3BF5D69C1C68DEDB007B0FE4 /* Planet2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5D6951C68DEDB007B0FE4 /* Planet2.cpp */; };
 		3BF5D69D1C68DEDB007B0FE4 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5D6971C68DEDB007B0FE4 /* Triangle.cpp */; };
-		3BF5D69E1C68DEDB007B0FE4 /* Triforce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5D6991C68DEDB007B0FE4 /* Triforce.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B53697C1C7B59A100481B28 /* Planet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Planet.cpp; path = "Code/Demos/Solar System/Planet.cpp"; sourceTree = SOURCE_ROOT; };
+		3B53697D1C7B59A100481B28 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = "Code/Demos/Solar System/Planet.h"; sourceTree = SOURCE_ROOT; };
+		3B53697E1C7B59A100481B28 /* Planet2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Planet2.cpp; path = "Code/Demos/Solar System/Planet2.cpp"; sourceTree = SOURCE_ROOT; };
+		3B53697F1C7B59A100481B28 /* Planet2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet2.h; path = "Code/Demos/Solar System/Planet2.h"; sourceTree = SOURCE_ROOT; };
+		3B5369821C7B59AF00481B28 /* Floor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Floor.cpp; path = "Code/Demos/Viewing Example/Floor.cpp"; sourceTree = SOURCE_ROOT; };
+		3B5369831C7B59AF00481B28 /* Floor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Floor.h; path = "Code/Demos/Viewing Example/Floor.h"; sourceTree = SOURCE_ROOT; };
+		3B5369851C7B59FE00481B28 /* Triforce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triforce.cpp; path = Code/Demos/Triforce/Triforce.cpp; sourceTree = SOURCE_ROOT; };
+		3B5369861C7B59FE00481B28 /* Triforce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triforce.h; path = Code/Demos/Triforce/Triforce.h; sourceTree = SOURCE_ROOT; };
 		3B7AC0F51C5FDFBB005B9E2D /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Engine.cpp; path = Framework/Engine/Engine.cpp; sourceTree = SOURCE_ROOT; };
 		3B7AC0F61C5FDFBB005B9E2D /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Engine.h; path = Framework/Engine/Engine.h; sourceTree = SOURCE_ROOT; };
 		3B7AC0F71C5FDFBB005B9E2D /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = Framework/Engine/Scene.cpp; sourceTree = SOURCE_ROOT; };
@@ -49,17 +59,14 @@
 		3B7AC1061C5FDFF0005B9E2D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Code/main.cpp; sourceTree = SOURCE_ROOT; };
 		3B7AC1071C5FDFF0005B9E2D /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyScene.cpp; path = Code/MyScene.cpp; sourceTree = SOURCE_ROOT; };
 		3B7AC1081C5FDFF0005B9E2D /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScene.h; path = Code/MyScene.h; sourceTree = SOURCE_ROOT; };
+		3B9D3BDF1C722FD100841DAD /* Lamp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lamp.cpp; path = "Code/Demos/Animated Lamp/Lamp.cpp"; sourceTree = SOURCE_ROOT; };
+		3B9D3BE01C722FD100841DAD /* Lamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lamp.h; path = "Code/Demos/Animated Lamp/Lamp.h"; sourceTree = SOURCE_ROOT; };
+		3B9D3BE11C722FD100841DAD /* LampMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LampMesh.h; path = "Code/Demos/Animated Lamp/LampMesh.h"; sourceTree = SOURCE_ROOT; };
 		3BD02A8C1C5FD69900E55BA5 /* G53GRA.Framework.XCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = G53GRA.Framework.XCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD02A981C5FD85D00E55BA5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		3BD02A9A1C5FD86400E55BA5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		3BF5D6931C68DEDB007B0FE4 /* Planet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Planet.cpp; path = Code/Demos/Planet.cpp; sourceTree = SOURCE_ROOT; };
-		3BF5D6941C68DEDB007B0FE4 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = Code/Demos/Planet.h; sourceTree = SOURCE_ROOT; };
-		3BF5D6951C68DEDB007B0FE4 /* Planet2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Planet2.cpp; path = Code/Demos/Planet2.cpp; sourceTree = SOURCE_ROOT; };
-		3BF5D6961C68DEDB007B0FE4 /* Planet2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet2.h; path = Code/Demos/Planet2.h; sourceTree = SOURCE_ROOT; };
 		3BF5D6971C68DEDB007B0FE4 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = Code/Demos/Triangle.cpp; sourceTree = SOURCE_ROOT; };
 		3BF5D6981C68DEDB007B0FE4 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = Code/Demos/Triangle.h; sourceTree = SOURCE_ROOT; };
-		3BF5D6991C68DEDB007B0FE4 /* Triforce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triforce.cpp; path = Code/Demos/Triforce.cpp; sourceTree = SOURCE_ROOT; };
-		3BF5D69A1C68DEDB007B0FE4 /* Triforce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triforce.h; path = Code/Demos/Triforce.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,14 +166,19 @@
 		3BF5D6921C68DECE007B0FE4 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				3BF5D6931C68DEDB007B0FE4 /* Planet.cpp */,
-				3BF5D6941C68DEDB007B0FE4 /* Planet.h */,
-				3BF5D6951C68DEDB007B0FE4 /* Planet2.cpp */,
-				3BF5D6961C68DEDB007B0FE4 /* Planet2.h */,
+				3B5369851C7B59FE00481B28 /* Triforce.cpp */,
+				3B5369861C7B59FE00481B28 /* Triforce.h */,
+				3B5369821C7B59AF00481B28 /* Floor.cpp */,
+				3B5369831C7B59AF00481B28 /* Floor.h */,
 				3BF5D6971C68DEDB007B0FE4 /* Triangle.cpp */,
+				3B53697C1C7B59A100481B28 /* Planet.cpp */,
+				3B53697D1C7B59A100481B28 /* Planet.h */,
+				3B53697E1C7B59A100481B28 /* Planet2.cpp */,
+				3B53697F1C7B59A100481B28 /* Planet2.h */,
+				3B9D3BDF1C722FD100841DAD /* Lamp.cpp */,
+				3B9D3BE01C722FD100841DAD /* Lamp.h */,
+				3B9D3BE11C722FD100841DAD /* LampMesh.h */,
 				3BF5D6981C68DEDB007B0FE4 /* Triangle.h */,
-				3BF5D6991C68DEDB007B0FE4 /* Triforce.cpp */,
-				3BF5D69A1C68DEDB007B0FE4 /* Triforce.h */,
 			);
 			name = Demos;
 			sourceTree = "<group>";
@@ -229,12 +241,14 @@
 			files = (
 				3B7AC0FA1C5FDFBB005B9E2D /* Scene.cpp in Sources */,
 				3B7AC1051C5FDFE6005B9E2D /* Texture.cpp in Sources */,
-				3BF5D69C1C68DEDB007B0FE4 /* Planet2.cpp in Sources */,
 				3B7AC1041C5FDFE6005B9E2D /* Camera.cpp in Sources */,
+				3B5369801C7B59A100481B28 /* Planet.cpp in Sources */,
+				3B5369811C7B59A100481B28 /* Planet2.cpp in Sources */,
+				3B5369841C7B59AF00481B28 /* Floor.cpp in Sources */,
+				3B9D3BE21C722FD100841DAD /* Lamp.cpp in Sources */,
+				3B5369871C7B59FE00481B28 /* Triforce.cpp in Sources */,
 				3B7AC10B1C5FDFF0005B9E2D /* main.cpp in Sources */,
-				3BF5D69B1C68DEDB007B0FE4 /* Planet.cpp in Sources */,
 				3B7AC10C1C5FDFF0005B9E2D /* MyScene.cpp in Sources */,
-				3BF5D69E1C68DEDB007B0FE4 /* Triforce.cpp in Sources */,
 				3BF5D69D1C68DEDB007B0FE4 /* Triangle.cpp in Sources */,
 				3B7AC0F91C5FDFBB005B9E2D /* Engine.cpp in Sources */,
 			);

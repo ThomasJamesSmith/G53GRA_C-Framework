@@ -42,9 +42,17 @@ void MyScene::Initialise()
 
 	// DEMO 4 (Demos/Animated Lamp)
 	// Create and add a new lamp to the scene
-	Lamp *l = new Lamp();
-	l->size(6.f);
-	AddObjectToScene(l);
+//	Lamp *l = new Lamp();
+//	l->size(6.f);
+//	AddObjectToScene(l);
+
+	// DEMO 5
+	// Show floor and triangle
+	Floor *f = new Floor();
+	Triangle *t = new Triangle();
+	f->size(100.f);
+	AddObjectToScene(f);
+	AddObjectToScene(t);
 	
 }
 
