@@ -6,6 +6,9 @@
 #include "Planet2.h"
 #include "Lamp.h"
 #include "Floor.h"
+#include "Teapot.h"
+#include "Light.h"
+#include "MultiLight.h"
 
 MyScene::MyScene(int argc, char** argv, const char *title, const int& windowWidth, const int& windowHeight)
 	: Scene(argc, argv, title, windowWidth, windowHeight)
@@ -15,11 +18,11 @@ MyScene::MyScene(int argc, char** argv, const char *title, const int& windowWidt
 
 void MyScene::Initialise()
 {
-	glClearColor(0.f, 0.f, 0.f, 1.f);
+	glClearColor(1.f, 1.f, 1.f, 1.f);
 
 	// DEMO 1
 	//Triangle *t = new Triangle();
-    // AddObjectToScene(t);
+    //AddObjectToScene(t);
 
 	// DEMO 2 (Demos / Triforce)
     //Triforce *t = new Triforce();
@@ -42,18 +45,46 @@ void MyScene::Initialise()
 
 	// DEMO 4 (Demos/Animated Lamp)
 	// Create and add a new lamp to the scene
-//	Lamp *l = new Lamp();
-//	l->size(6.f);
-//	AddObjectToScene(l);
+	//Lamp *l = new Lamp();
+	//l->size(6.f);
+	//AddObjectToScene(l);
 
 	// DEMO 5
 	// Show floor and triangle
-	Floor *f = new Floor();
-	Triangle *t = new Triangle();
-	f->size(100.f);
-	AddObjectToScene(f);
-	AddObjectToScene(t);
+	//Floor *f = new Floor();
+	//Triangle *t = new Triangle();
+	//f->size(100.f);
+    //t->size(0.5f);
+	//AddObjectToScene(f);
+	//AddObjectToScene(t);
 	
+	// DEMO 6 (LIGHTING)
+	// Show teapot and lighting
+	//Floor *f = new Floor();
+	//f->size(100.f);
+
+	//Teapot *t = new Teapot();
+	//t->size(100.f);
+
+	//Light *l = new Light();
+	//
+	//AddObjectToScene(l);
+	//AddObjectToScene(t);
+	//AddObjectToScene(f);
+
+	// DEMO 7 (Multilights)
+	Floor *f = new Floor();
+	f->size(100.f);
+
+	Teapot *t = new Teapot();
+	t->size(100.f);
+
+	MultiLight *l = new MultiLight();
+
+	AddObjectToScene(l);
+	AddObjectToScene(t);
+	AddObjectToScene(f);
+
 }
 
 void MyScene::Projection()

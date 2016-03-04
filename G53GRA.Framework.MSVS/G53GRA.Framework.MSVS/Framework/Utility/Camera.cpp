@@ -69,6 +69,8 @@ void Camera::Update(const double& deltaTime)
 
 	if (sKey)
 		sub(eyePosition, forward, speed);
+
+	SetupCamera();
 }
 
 void Camera::GetEyePosition(float &x, float &y, float &z) const

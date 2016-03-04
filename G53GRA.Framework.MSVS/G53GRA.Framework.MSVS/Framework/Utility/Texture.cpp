@@ -134,5 +134,7 @@ int Texture::GetTexture(string fileName)
 	// Delete old copy of pixel data
 	delete[] pixelBuffer;
 
+	glDisable(GL_TEXTURE_2D);
+
 	return (int)texObject;
 }

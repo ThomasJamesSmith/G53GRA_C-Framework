@@ -20,6 +20,9 @@
 		3B9D3BE21C722FD100841DAD /* Lamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D3BDF1C722FD100841DAD /* Lamp.cpp */; };
 		3BD02A991C5FD85D00E55BA5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD02A981C5FD85D00E55BA5 /* GLUT.framework */; };
 		3BD02A9B1C5FD86400E55BA5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD02A9A1C5FD86400E55BA5 /* OpenGL.framework */; };
+		3BE89DC01C887BA8004DF715 /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE89DBA1C887BA8004DF715 /* Light.cpp */; };
+		3BE89DC11C887BA8004DF715 /* MultiLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE89DBC1C887BA8004DF715 /* MultiLight.cpp */; };
+		3BE89DC21C887BA8004DF715 /* Teapot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE89DBE1C887BA8004DF715 /* Teapot.cpp */; };
 		3BF5D69D1C68DEDB007B0FE4 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5D6971C68DEDB007B0FE4 /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,12 @@
 		3BD02A8C1C5FD69900E55BA5 /* G53GRA.Framework.XCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = G53GRA.Framework.XCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD02A981C5FD85D00E55BA5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		3BD02A9A1C5FD86400E55BA5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3BE89DBA1C887BA8004DF715 /* Light.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Light.cpp; path = Code/Demos/Lighting/Light.cpp; sourceTree = SOURCE_ROOT; };
+		3BE89DBB1C887BA8004DF715 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Light.h; path = Code/Demos/Lighting/Light.h; sourceTree = SOURCE_ROOT; };
+		3BE89DBC1C887BA8004DF715 /* MultiLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiLight.cpp; path = Code/Demos/Lighting/MultiLight.cpp; sourceTree = SOURCE_ROOT; };
+		3BE89DBD1C887BA8004DF715 /* MultiLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiLight.h; path = Code/Demos/Lighting/MultiLight.h; sourceTree = SOURCE_ROOT; };
+		3BE89DBE1C887BA8004DF715 /* Teapot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Teapot.cpp; path = Code/Demos/Lighting/Teapot.cpp; sourceTree = SOURCE_ROOT; };
+		3BE89DBF1C887BA8004DF715 /* Teapot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Teapot.h; path = Code/Demos/Lighting/Teapot.h; sourceTree = SOURCE_ROOT; };
 		3BF5D6971C68DEDB007B0FE4 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = Code/Demos/Triangle.cpp; sourceTree = SOURCE_ROOT; };
 		3BF5D6981C68DEDB007B0FE4 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = Code/Demos/Triangle.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -166,13 +175,19 @@
 		3BF5D6921C68DECE007B0FE4 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				3BE89DBA1C887BA8004DF715 /* Light.cpp */,
+				3BE89DBB1C887BA8004DF715 /* Light.h */,
+				3BE89DBC1C887BA8004DF715 /* MultiLight.cpp */,
+				3BE89DBD1C887BA8004DF715 /* MultiLight.h */,
+				3BE89DBE1C887BA8004DF715 /* Teapot.cpp */,
+				3BE89DBF1C887BA8004DF715 /* Teapot.h */,
 				3B5369851C7B59FE00481B28 /* Triforce.cpp */,
 				3B5369861C7B59FE00481B28 /* Triforce.h */,
 				3B5369821C7B59AF00481B28 /* Floor.cpp */,
-				3B5369831C7B59AF00481B28 /* Floor.h */,
 				3BF5D6971C68DEDB007B0FE4 /* Triangle.cpp */,
 				3B53697C1C7B59A100481B28 /* Planet.cpp */,
 				3B53697D1C7B59A100481B28 /* Planet.h */,
+				3B5369831C7B59AF00481B28 /* Floor.h */,
 				3B53697E1C7B59A100481B28 /* Planet2.cpp */,
 				3B53697F1C7B59A100481B28 /* Planet2.h */,
 				3B9D3BDF1C722FD100841DAD /* Lamp.cpp */,
@@ -240,11 +255,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7AC0FA1C5FDFBB005B9E2D /* Scene.cpp in Sources */,
+				3BE89DC01C887BA8004DF715 /* Light.cpp in Sources */,
+				3BE89DC11C887BA8004DF715 /* MultiLight.cpp in Sources */,
 				3B7AC1051C5FDFE6005B9E2D /* Texture.cpp in Sources */,
 				3B7AC1041C5FDFE6005B9E2D /* Camera.cpp in Sources */,
 				3B5369801C7B59A100481B28 /* Planet.cpp in Sources */,
 				3B5369811C7B59A100481B28 /* Planet2.cpp in Sources */,
 				3B5369841C7B59AF00481B28 /* Floor.cpp in Sources */,
+				3BE89DC21C887BA8004DF715 /* Teapot.cpp in Sources */,
 				3B9D3BE21C722FD100841DAD /* Lamp.cpp in Sources */,
 				3B5369871C7B59FE00481B28 /* Triforce.cpp in Sources */,
 				3B7AC10B1C5FDFF0005B9E2D /* main.cpp in Sources */,
